@@ -216,6 +216,10 @@
 	{
 		font-size: 48px;
 	}
+	.slide > .background_image{
+		background-image: url(../images/index1.jpeg) !important;
+		background-position: right;
+	}
 }
 
 /************
