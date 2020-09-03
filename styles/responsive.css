@@ -236,6 +236,9 @@
 	width:100% !important; 
 	height:315px !important;
 }
+.icon {
+	font-size: 30px;
+}
 }
 
 /************
@@ -396,5 +399,8 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.icon {
+	font-size: 25px;
+}
+
 }
