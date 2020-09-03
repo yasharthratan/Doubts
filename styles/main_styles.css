@@ -46,6 +46,9 @@ body
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #a5a5a5;
+	overflow-x: hidden;
+    overflow-y: visible;
+    scroll-behavior: smooth;
 }
 div
 {
@@ -1234,7 +1237,7 @@ section
 .footer_container
 {
 	background: #0a2642;
-	padding-top: 53px;
+	padding-top: 13px;
 	padding-bottom: 61px;
 }
 .footer_text
@@ -1248,11 +1251,11 @@ section
    padding-top:120px;
 }
 .footer_text_right p{
-   color: #a1acb7;
+   color: whitesmoke;
  }
 .footer_text p
 {
-	color: #a1acb7;
+	color: whitesmoke;
 }
 .footer_social
 {
@@ -1502,10 +1505,7 @@ h4{text-align:center;margin:30px 0;color:#444}
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 3%;
-  right: -3%;
   height: 100%;
-  width: 94%;
   opacity: 0;
   transition: .3s ease;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
@@ -1533,3 +1533,4 @@ h4{text-align:center;margin:30px 0;color:#444}
 .icon>i:hover {
   color: #eee;
 }
+
