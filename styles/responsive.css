@@ -110,7 +110,11 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
+	.coding > .overlay{
+	width:92% !important;
+	left:4% !important;
+	right: 2% !important;
+}
 }
 
 /************
@@ -194,7 +198,12 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+	.footer_text_right
+	{
+		padding-right: 8px;
+		padding-top: 0;
+		padding-bottom: 0px;
+	}
 }
 
 /************
@@ -241,7 +250,12 @@
 }
 .footer_text_right col-md-4 p
 {
-   text-align: center;
+   text-align:center;
+}
+.tab_text p
+{
+	
+	font-size: 15px;
 }
 }
 
@@ -406,7 +420,11 @@
 	.icon {
 	font-size: 25px;
 }
-
+.coding > .overlay{
+	width:90% !important;
+	left:4% !important;
+	right: 2% !important;
+}
 }
 
 .courseY

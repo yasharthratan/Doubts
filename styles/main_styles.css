@@ -408,7 +408,7 @@ section
 	position: fixed;
 	top: 22px;
 	left: 23px;
-	width: calc(100% - 48px);
+	width: calc(100vw - 48px);
 	background: #0a2642;
 	z-index: 100;
 	border-bottom: solid 2px #67bad9;
@@ -903,6 +903,9 @@ section
 	height: 100%;
 	background: rgba(103,186,217,0.88);
 }
+.data-image-src{
+	
+}
 .timer_container
 {
 	height: 197px;
@@ -1080,6 +1083,7 @@ section
 	-ms-transform: translateY(8px);
 	-o-transform: translateY(8px);
 	transform: translateY(8px);
+	font-size: 20px;
 }
 .tab_image
 {
@@ -1518,19 +1522,37 @@ h4{text-align:center;margin:30px 0;color:#444}
 .icon {
   color: white;
   font-size: 40px;
-  position: absolute;
-  top: 94%;
-  left: 50%;
+  position: relative;
+  top: 85%;
+  left: 43%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  padding-right: 10px;
 }
-.icon>i{
-	padding-right:10px;
-}
+
 
 /* When you move the mouse over the icon, change color */
 .icon>i:hover {
   color: #eee;
+}
+
+
+/*-------------------------------------------
+  -- Promo Numbers
+-------------------------------------------*/
+
+.ts-promo-number {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.ts-promo-number figure {
+    color: #f26c4f;
+    font-weight: 400;
+}
+.data-bg-image{
+	background:url(../images/bgf.jpg);
 }
 
